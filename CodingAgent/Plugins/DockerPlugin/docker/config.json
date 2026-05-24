@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "description": "AI assistant for Docker commands, Dockerfiles, containers, images, volumes, networking, and Docker Compose.",
+  "type": "completion",
+
+  "execution_settings": {
+    "default": {
+      "max_tokens": 300,
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    }
+  },
+
+  "input_variables": [
+    {
+      "name": "input",
+      "description": "Docker question, command request, or Docker issue",
+      "required": true
+    }
+  ]
+}
